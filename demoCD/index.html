@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="mb-3">
+            <label for="code" class="form-label">
+                Code</label>
+            <input type="text" class="form-control"
+                id="code" placeholder="111">
+        </div>
+        <div class="mb-3">
+            <label for="title" class="form-label">
+                Title</label>
+            <input type="text" class="form-control"
+                id="title" placeholder="Tile">
+        </div>
+
+        <div class="mb-3">
+            <label for="sigle" class="form-label">
+                Sigle</label>
+            <input type="text" class="form-control"
+                id="sigle" placeholder="sigle">
+        </div>
+
+        <div class="mb-3">
+            <label for="sigle" class="form-label">
+                Number</label>
+            <input type="text" class="form-control"
+                id="number" placeholder="sigle">
+        </div>
+
+        <div class="mb-3">
+            <label for="sigle" class="form-label">
+                Cost</label>
+            <input type="text" class="form-control"
+                id="cost" placeholder="sigle">
+        </div>
+        <button type="button" class="btn btn-outline-info">Add CD</button>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Code</th>
+                    <th scope="col">Tile</th>
+                    <th scope="col">Sigle</th>
+                    <th scope="col">Number</th>
+                    <th scope="col">Cost</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody id="cbody">
+
+            </tbody>
+        </table>
+
+        <script src="index.js"></script>
+    </body>
+</html>
